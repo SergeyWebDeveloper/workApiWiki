@@ -1,0 +1,24 @@
+.search__item{
+  margin: 1.5em auto;
+}
+#search__wrapper{
+  padding-bottom: 30px;
+}
+
+.search__item{
+  transition: all .5s ease;
+  transform: translateY(-50px);
+}
+.search__item.animate{
+    transform: translateY(0);
+}
+body{
+    padding: 1% 2%;
+}
+.form__search{
+    display: flex;
+    justify-content: space-between;
+}
+.form__search p{
+    width: 90%;
+}
